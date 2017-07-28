@@ -2,4 +2,4 @@
 
 ### Features
 - Built with [Create React App](https://github.com/facebookincubator/create-react-app)
-- Hosted on Heroku
+- Hosted on [Heroku](https://www.heroku.com/)
