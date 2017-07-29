@@ -1,46 +1,152 @@
 body {
   margin: 0;
   padding: 0;
-}
-html, body,{
-    height: 100%;
+  font-family: 'Montserrat', sans-serif;
 }
 
+html, body, #root{
+  overflow: auto;
+  min-height: 100%;
+  overflow-x: hidden;
+    /* height: 100vh; */
+}
 
- /* .App{
-  height: 100vh;
-}  */
+/* .App{
+   height: 100vh; 
+}   */
 
-.container-fluid {
+
+ .container-fluid {
     padding-right: 0px!important;
     padding-left: 0rem!important;
+} 
+
+.Name{
+  margin-top: 2rem;
+  text-align: center;
+  color: #0a0a0a;
+  font-weight: 900;
+  font-size: 2rem;
 }
 
+.Headshot {
+  margin: auto;
+  display: block;
+  width:75%;
+  z-index: 10;
+  /* box-shadow: 0 4px 10px rgba(0, 0, 0, .2);  */
+}
+
+.NavList{
+  list-style: none;
+  margin-left: 1vw;
+  margin-top: 5vh;
+}
+
+.NavLink{
+  margin-bottom: 1.5rem;
+}
+
+.Social{
+  list-style: none;
+  margin-left: 1vw;  
+  margin-top: 15vh;
+   
+}
 
 .LeftNav{
-  background: #ccc;  
-  height:100vh;
+  background: #fafafa;  
 }
 
- @media (max-width: 768px) { 
+a:-webkit-any-link{
+  text-decoration: none;
+  color: #606060
+}
+
+@media (max-width: 1024px) { 
   .LeftNav{
     height: auto
   }
- } 
+  .NavList{
+    display: none
+  }
+  .Headshot{
+    height: 10rem;
+    width: auto;
+  }
+  .Name{
+    margin-top: 1rem;
+  }
+  .Social{
+    text-align: center;
+    margin-left: 0;
+    margin-top: 1rem;
+    -webkit-padding-start:0px;
+  }
+ }
 
-.ProjectGallery{
-  background: #666;
+.Gallery{
+  background: #c4c4c4;
+  /* height: 100vh; */
 }
 
+.Gallery{
+   display: flex;
+   justify-content:space-between
+ } 
+
+.Title{
+  color: #0a0a0a;  
+  font-weight: 400;
+  margin-bottom: .5rem;
+  text-align: center;
+}
+
+.Year{
+  color: #606060;  
+  font-weight: 300;
+  margin-bottom: 1rem;
+  font-style: italic;
+  font-size: .75rem;
+  text-align: center;  
+}
+
+.ProjectImage{
+  display: block;
+  width:100%;
+  /* margin: 1rem; */
+}
 .card {
   position: relative;
-  width: 200px;
-  height: 200px;
+  /* width: 200px; */
+  /* height: 200px; */
   z-index: 10;
   max-width: 28rem;
   box-shadow: 0 4px 10px rgba(0, 0, 0, .2); 
   background-color: #fdfdfd;
   box-sizing: border-box;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-top: 3rem;
+  margin-left: 4rem;
+  margin-right: 2rem; 
 }
+
+@media all and (max-width: 1385px) and (min-width:1240px){
+  .card{
+    flex-basis: 24%!important;
+  }
+}
+
+@media all and (max-width: 1240px) and (min-width:1024px){
+  .card{
+    flex-basis: 22%!important;
+  }
+}
+
+@media (max-width: 768px) { 
+  .card{
+    width: 100%;
+    max-width: 100%;
+    margin-left: 1rem; 
+    margin-right: 1rem; 
+  }
+ } 
