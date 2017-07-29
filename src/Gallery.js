@@ -12,8 +12,8 @@ import Websitepic from './../src/assets/website.png'
 
 const Gallery = () => (
   <Grid fluid gutter={0} className="Gallery">
-    <Row>
-      <Col className="Project1 card" xs={12} sm={10} md={5} lg={3}>
+    <Row center="xs">
+      <Col className="Project1 card" xs={10} sm={10} md={5} lg={3}>
         <Link to='/Project1'>
           <img className="HVZpic ProjectImage" src={HVZpic} alt="Humans Vs Zombies Project"/>        
           <div className="Title">Dungeons and Dragons Digital Dice Tower</div>

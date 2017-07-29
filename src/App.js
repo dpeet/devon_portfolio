@@ -7,8 +7,9 @@ import { Grid, Row, Col } from 'react-flexbox-grid';
 class App extends Component {
   render() {
     return (
-      <Grid fluid gutter={0} className="App">
-        <Row>
+      <div className="App">
+      <Grid fluid gutter={0} className="AppContainerGrid">
+        <Row className="AppContainerRow">
           <Col className="LeftNav" xs={12} sm={2}>
             <LeftNav />
           </Col>
@@ -17,6 +18,7 @@ class App extends Component {
           </Col>
         </Row>
       </Grid>
+      </div>
     );
   }
 }

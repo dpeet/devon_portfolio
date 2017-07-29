@@ -1,15 +1,31 @@
+html {
+   margin: 0px;
+   height: 100%;
+   width: 100%;
+}
+
 body {
   margin: 0;
   padding: 0;
   font-family: 'Montserrat', sans-serif;
+  margin: 0px;
+  min-height: 100%;
+  width: 100%;
 }
 
-html, body, #root{
-  overflow: auto;
-  min-height: 100%;
-  overflow-x: hidden;
-    /* height: 100vh; */
+#root, .App{
+  height:100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
+
+/* html, body, #root{ */
+  /* overflow: auto; */
+  /* min-height: 100%; */
+  /* overflow-x: hidden; */
+    /* height: 100vh; */
+/* } */
 
 /* .App{
    height: 100vh; 
@@ -19,7 +35,12 @@ html, body, #root{
  .container-fluid {
     padding-right: 0px!important;
     padding-left: 0rem!important;
+    display: flex;
 } 
+
+.AppContainerGrid{
+  min-height: 100vh;
+}
 
 .Name{
   margin-top: 2rem;
@@ -85,9 +106,9 @@ a:-webkit-any-link{
   }
  }
 
-.Gallery{
-  background: #c4c4c4;
-  /* height: 100vh; */
+.ProjectGallery{
+   background: #c4c4c4;   
+
 }
 
 .Gallery{
@@ -128,6 +149,13 @@ a:-webkit-any-link{
   margin-top: 3rem;
   margin-left: 4rem;
   margin-right: 2rem; 
+}
+
+@media (min-width:768px){
+  .center-xs{
+    justify-content: flex-start!important;
+
+  }
 }
 
 @media all and (max-width: 1385px) and (min-width:1240px){
