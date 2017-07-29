@@ -2,21 +2,22 @@ import React, { Component } from 'react';
 import './App.css';
 import LeftNav from "./LeftNav"
 import Main from "./Main"
+import { Grid, Row, Col } from 'react-flexbox-grid';
 
 class App extends Component {
   render() {
     return (
-      <div className="App container-fluid">
-        <div className="App row">
-          <div className="LeftNav col-sm-2">
+      <Grid fluid>
+        <Row>
+          <Col className="LeftNav" xs={12} md={2}>
             <LeftNav />
-          </div>
-          <div className="ProjectGallery col-sm-10">
+          </Col>
+          <Col className="ProjectGallery" xs={12} md={10}>          
             <Main />
             <p>Check out my social stuff</p>
-          </div>
-        </div>
-      </div>
+          </Col>
+        </Row>
+      </Grid>
     );
   }
 }

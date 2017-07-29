@@ -6,33 +6,36 @@ html, body,{
     height: 100%;
 }
 
-#root{
-  min-height: 100%
-}
 
-.App{
+ /* .App{
   height: 100vh;
+}  */
+
+.container-fluid {
+    padding-right: 0px!important;
+    padding-left: 0rem!important;
 }
-
-@media (max-width: 768px) { 
-  .App{
-    height: 10vh
-  }
-
- }
 
 
 .LeftNav{
-  min-height: 100%;
-  background: #ccc;
+  background: #ccc;  
+  height:100vh;
 }
+
+ @media (max-width: 768px) { 
+  .LeftNav{
+    height: auto
+  }
+ } 
+
 .ProjectGallery{
   background: #666;
 }
 
 .card {
   position: relative;
-  width: 100px;
+  width: 200px;
+  height: 200px;
   z-index: 10;
   max-width: 28rem;
   box-shadow: 0 4px 10px rgba(0, 0, 0, .2); 
