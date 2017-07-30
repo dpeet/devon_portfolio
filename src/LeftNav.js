@@ -22,10 +22,10 @@ const LeftNav = () => (
       </ul>
       <ul className="Social">
         <li>
-          <a href="url"><FontAwesome name='github' /> Github</a>
+          <a href="https://github.com/dpeet"><FontAwesome name='github' /> Github</a>
         </li>
         <li>
-          <a href="url"><FontAwesome name='linkedin' /> LinkedIn</a>
+          <a href="https://www.linkedin.com/in/devon-peet/"><FontAwesome name='linkedin' /> LinkedIn</a>
         </li>
       </ul>
     </div>

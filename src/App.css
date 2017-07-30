@@ -26,6 +26,7 @@ body {
     padding-right: 0px!important;
     padding-left: 0rem!important;
     display: flex;
+    min-width: 100vw;
 } 
 
 .AppContainerGrid{
@@ -97,8 +98,8 @@ a:-webkit-any-link{
  }
 
 .ProjectGallery{
-   background: #f7f7f7;   
-
+  background: #f7f7f7;   
+  min-width: 80%;
 }
 
 .Gallery{
@@ -272,7 +273,7 @@ img {
 
 
 .Project1Container{
-  max-width: 80%;
+  width: 80%;
   margin: auto;
   text-align: center;
 }

@@ -1,10 +1,9 @@
 import React from 'react'
 
 const Project3 = () => (
-  <div>
-    <ul>
-      <li>project2</li>
-    </ul>
+  <div className="Project1Container">
+    <h1 className="ProjectTitle">Portfolio Website</h1>
+    <div className="ProjectMainText">Content Coming Soon!</div>
   </div>
 )
 

@@ -1,10 +1,9 @@
 import React from 'react'
 
 const Project4 = () => (
-  <div>
-    <ul>
-      <li>project4</li>
-    </ul>
+  <div className="Project1Container">
+    <h1 className="ProjectTitle">Salesforce Animation Page Redesign</h1>
+    <div className="ProjectMainText">Content Coming Soon!</div>
   </div>
 )
 
