@@ -8,16 +8,14 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-      <Grid fluid gutter={0} className="AppContainerGrid">
-        <Row className="AppContainerRow">
-          <Col className="LeftNav" xs={12} sm={2}>
+      {/* <Grid fluid gutter={0} className="AppContainerGrid"> */}
+          <div className="LeftNav">
             <LeftNav />
-          </Col>
-          <Col className="ProjectGallery" xs={12} sm={10}>          
+          </div>
+          <div className="ProjectGallery">          
             <Main />
-          </Col>
-        </Row>
-      </Grid>
+          </div>
+      {/* </Grid> */}
       </div>
     );
   }
