@@ -12,15 +12,13 @@ import Project4 from './Project4'
 // with /roster or /schedule. The / route will only match
 // when the pathname is exactly the string "/"
 const Main = () => (
-  <main>
     <Switch>
       <Route exact path='/' component={Gallery}/>
-      <Route path='/Project1' component={Project1}/>
+      <Route path='/dndtower' component={Project1}/>
       <Route path='/Project2' component={Project2}/>
       <Route path='/Project3' component={Project3}/>   
       <Route path='/Project4' component={Project4}/>               
     </Switch>
-  </main>
 )
 
 export default Main
