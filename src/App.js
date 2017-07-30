@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import './App.css';
 import LeftNav from "./LeftNav"
 import Main from "./Main"
-import { Grid, Row, Col } from 'react-flexbox-grid';
 
 class App extends Component {
   render() {
