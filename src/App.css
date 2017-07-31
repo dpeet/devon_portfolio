@@ -19,6 +19,7 @@ body {
   height: 100%;
   min-height: 100vh;
   display: flex;
+  width: 100%;
 }
 
 .container-fluid {
@@ -296,7 +297,7 @@ img {
   margin-bottom: 1.25rem;
 }
 
-.Project1Container {
+.ProjectContainer {
   width: 80%;
   margin: auto;
   text-align: center;
