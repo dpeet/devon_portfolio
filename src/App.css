@@ -323,5 +323,19 @@ img {
 
 .ProjectImage {
   margin-top: 1rem;
+  margin-bottom: .25rem;
+  
+}
+
+.ProjectTextHeading{
+  font-size: 1.75rem;
+  font-weight:600;
+  margin-top: 2rem;
+  
+}
+
+.ProjectImageSubtitle{
   margin-bottom: 1rem;
+  color: #4F4F4F;
+  font-style: italic;
 }
