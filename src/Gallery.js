@@ -21,7 +21,7 @@ const Gallery = () => (
   </li>
   <li className="cards__item">
     <div className="card">
-      <Link to='/Project2'>
+      <Link to='/hvz'>
         <div className="card__image card__image--hvz"></div>
         <div className="card__content">
           <div className="card__title">Mass Spatial Gaming (Humans Vs Zombies)</div>
@@ -32,7 +32,7 @@ const Gallery = () => (
   </li>
   <li className="cards__item">
     <div className="card">
-      <Link to='/Project3'>
+      <Link to='/portfoliowebsite'>
         <div className="card__image card__image--portfolio"></div>
         <div className="card__content">
           <div className="card__title">Portfolio Website</div>
@@ -43,7 +43,7 @@ const Gallery = () => (
   </li>
   <li className="cards__item">
     <div className="card">
-      <Link to='/Project4'>
+      <Link to='/salesforceanimation'>
         <div className="card__image card__image--animation"></div>
         <div className="card__content">
           <div className="card__title">Salesforce Animation Page Redesign</div>

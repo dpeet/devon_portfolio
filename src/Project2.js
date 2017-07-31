@@ -12,7 +12,7 @@ import hvzimage8 from './assets/hvzimage8.png'
 
 
 const Project2 = () => (
-  <div className="Project1Container">
+  <div className="ProjectContainer">
     <h1 className="ProjectTitle">Mass Spatial Gaming (Humans Vs Zombies)</h1>
     <p className="ProjectSubtitle">Study to improve the HvZ experience through User Centered Design research and methods.</p>
     <img className="ProjectImage" src={hvzimage1} alt=""/>
