@@ -10,7 +10,7 @@ import dndimage6 from './assets/dndimage6.jpg'
 
 const Project1 = () => (
   <div className="ProjectContainer">
-    <h1 className="ProjectTitle">DUNGEONS AND DRAGONS DIGITAL DICE TOWER</h1>  
+    <h1 className="ProjectTitle">Dungeons and Dragons Dice Tower</h1>
     <p className="ProjectSubtitle">Augmenting a traditional tabletop RPG with a digital interface</p>
     <div className="ProjectMainText">Diving in to another project revolving around game design, this semester I worked on bringing digital enhancements to Dungeons and Dragons, building an augmented dice tower.</div>
     <img className="ProjectImage LargeCenteredImage" src={dndimage1} alt=""/>
@@ -28,6 +28,6 @@ const Project1 = () => (
     <img className="ProjectImage MediumCenteredImage" src={dndimage5} alt=""/>
     <img className="ProjectImage MediumCenteredImage" src={dndimage6} alt=""/>
   </div>
-)
+);
 
 export default Project1
