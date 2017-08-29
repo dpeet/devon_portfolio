@@ -19,6 +19,6 @@ const Main = () => (
       <Route path='/portfoliowebsite' component={Project3}/>   
       <Route path='/salesforceanimation' component={Project4}/>               
     </Switch>
-)
+);
 
 export default Main

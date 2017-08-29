@@ -53,5 +53,5 @@ const Gallery = () => (
     </div>
   </li>
 </ul>
-)
+);
 export default Gallery

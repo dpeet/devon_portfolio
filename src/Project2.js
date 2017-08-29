@@ -35,15 +35,7 @@ const Project2 = () => (
     <img className="ProjectImage" src={hvzimage7} alt=""/>
     <div className="ProjectMainText">Our final design was manufactured out of laser cut cardboard.  The interface was written in Python and run on a Raspberry Pi (and Pi Display), while the notification lights are handled by an attached Arduino.  We used a coin collector to accept quarters as our "stun coins" and used a basic RFID reader under one of the cardboard panels to get the Player's ID.  The LEDs provided visual feedback that the system was working and responding, while also pulsing to indicate whether the station was controlled by the Humans or the Zombies.  When we tested the system with users we were met with overwhelmingly positive feedback.  We hope this project is implemented in some way in future HvZ games!</div>
     <img className="ProjectImage MediumCenteredImage" src={hvzimage8} alt=""/>
-  
-    <div className="ProjectMainText"></div>
-    <div className="ProjectMainText"></div>
-    <div className="ProjectMainText"></div>
-    
-    <div className="ProjectMainText"></div>
-
-    
   </div>
-)
+);
 
 export default Project2

@@ -29,6 +29,6 @@ const LeftNav = () => (
         </li>
       </ul>
     </div>
-)
+);
 
 export default LeftNav
