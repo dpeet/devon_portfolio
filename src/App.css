@@ -139,6 +139,19 @@ a:-webkit-any-link {
   /* margin: 1rem; */
 }
 
+.MediumCenteredImage {
+  max-width: 28rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.LargeCenteredImage {
+  max-width: 40rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 
 /* .card {
   position: relative;
