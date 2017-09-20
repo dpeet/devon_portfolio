@@ -35,8 +35,8 @@ const Gallery = () => (
       <Link to='/portfoliowebsite'>
         <div className="card__image card__image--portfolio"> </div>
         <div className="card__content">
-          <div className="card__title">Portfolio Website</div>
-          <p className="card__text">Summer 2017</p>
+          <div className="card__title">JetEdit - MSHCI Project</div>
+          <p className="card__text">Fall 2017</p>
         </div>
       </Link>  
     </div>

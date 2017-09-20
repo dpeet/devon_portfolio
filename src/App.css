@@ -257,7 +257,7 @@ img {
 .card__image {
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   border-top-left-radius: 0.25rem;
   border-top-right-radius: 0.25rem;
   filter: contrast(100%);
@@ -287,7 +287,7 @@ img {
 }
 
 .card__image--portfolio {
-  background-image: url('./../src/assets/website.png');
+  background-image: url('./../src/assets/jeteditlogo.png');
 }
 
 .card__image--dnd {
