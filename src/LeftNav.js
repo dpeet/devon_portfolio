@@ -17,7 +17,7 @@ const LeftNav = () => (
       <ul className="NavList">
         <li className="NavLink"><Link to='/dndtower'>Dungeons and Dragons Digital Dice Tower</Link></li>
         <li className="NavLink"><Link to='/hvz'>Mass Spatial Gaming (Humans Vs Zombies)</Link></li>
-        <li className="NavLink"><Link to='/portfoliowebsite'>Portfolio Website</Link></li>      
+        <li className="NavLink"><Link to='/jetedit'>Jet Edit</Link></li>
         <li className="NavLink"><Link to='/salesforceanimation'>Salesforce Animation Page</Link></li>      
       </ul>
       <ul className="Social">

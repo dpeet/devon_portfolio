@@ -16,7 +16,7 @@ const Main = () => (
       <Route exact path='/' component={Gallery}/>
       <Route path='/dndtower' component={Project1}/>
       <Route path='/hvz' component={Project2}/>
-      <Route path='/portfoliowebsite' component={Project3}/>   
+      <Route path='/jetedit' component={Project3}/>
       <Route path='/salesforceanimation' component={Project4}/>               
     </Switch>
 );
