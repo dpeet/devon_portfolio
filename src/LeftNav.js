@@ -21,12 +21,9 @@ const LeftNav = () => (
         <li className="NavLink"><Link to='/salesforceanimation'>Salesforce Animation Page</Link></li>      
       </ul>
       <ul className="Social">
-        <li>
-          <a href="https://github.com/dpeet"><FontAwesome name='github' /> Github</a>
-        </li>
-        <li>
-          <a href="https://www.linkedin.com/in/devon-peet/"><FontAwesome name='linkedin' /> LinkedIn</a>
-        </li>
+        <li><a href="mailto:dpeet@gatech.edu"><FontAwesome name='envelope' /> Email</a></li>
+        <li><a href="https://github.com/dpeet"><FontAwesome name='github' /> Github</a></li>
+        <li><a href="https://www.linkedin.com/in/devon-peet/"><FontAwesome name='linkedin' /> LinkedIn</a></li>
       </ul>
     </div>
 );
