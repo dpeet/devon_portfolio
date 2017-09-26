@@ -17,6 +17,7 @@ const Project2 = () => (
     <p className="ProjectSubtitle">Study to improve the HvZ experience through User Centered Design research and methods.</p>
     <img className="ProjectImage LargeCenteredImage" src={hvzimage1} alt=""/>
     <div className="ProjectImageSubtitle">Brainssssssss............</div>
+    <img className="ProjectImage MediumCenteredImage" src={hvzimage8} alt=""/>
     <div className="ProjectTextHeading">OVERVIEW</div>
     <div className="ProjectMainText">In Intro to HCI our class formed teams of 4 tasked with finding a problem space within the theme "Connected Campus."  Our project chose to explore a set of games we termed "Mass Spatial Games" referring to their in person gameplay over a large spatial area.  We specifically focused on a week-long variant of tag called Humans vs Zombies.  We first researched the game itself, then developed designs to help increase players' immersion, ultimately building a prototype that we tested with a mini-game on campus to gather feedback</div>
     <img className="ProjectImage LargeCenteredImage" src={hvzimage2} alt=""/>
@@ -34,7 +35,7 @@ const Project2 = () => (
     <img className="ProjectImage" src={hvzimage6} alt=""/>
     <img className="ProjectImage" src={hvzimage7} alt=""/>
     <div className="ProjectMainText">Our final design was manufactured out of laser cut cardboard.  The interface was written in Python and run on a Raspberry Pi (and Pi Display), while the notification lights are handled by an attached Arduino.  We used a coin collector to accept quarters as our "stun coins" and used a basic RFID reader under one of the cardboard panels to get the Player's ID.  The LEDs provided visual feedback that the system was working and responding, while also pulsing to indicate whether the station was controlled by the Humans or the Zombies.  When we tested the system with users we were met with overwhelmingly positive feedback.  We hope this project is implemented in some way in future HvZ games!</div>
-    <img className="ProjectImage MediumCenteredImage" src={hvzimage8} alt=""/>
+
   </div>
 );
 

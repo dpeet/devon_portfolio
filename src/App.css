@@ -374,3 +374,8 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
+
+.ProjectBodyLink{
+  text-decoration: underline!important;
+  color: #377ae2!important;
+}
